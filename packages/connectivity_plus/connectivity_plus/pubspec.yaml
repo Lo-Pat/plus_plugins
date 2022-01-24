@@ -31,7 +31,10 @@ dependencies:
   connectivity_plus_platform_interface: ^1.2.0
   connectivity_plus_linux: ^1.2.0
   connectivity_plus_macos:
-    path: ../connectivity_plus_macos
+    git:
+      url: https://github.com/Lo-Pat/plus_plugins.git
+      path: packages/connectivity_plus/connectivity_plus_macos
+      ref: fix/2.2.0
   connectivity_plus_web: ^1.2.0
   connectivity_plus_windows: ^1.2.0
 
